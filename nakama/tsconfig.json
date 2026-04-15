@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "strict": false,
+    "esModuleInterop": true,
+    "outFile": "./build/index.js",
+    "rootDir": "./src",
+    "moduleResolution": "node",
+    "typeRoots": ["./node_modules"],
+    "types": ["nakama-runtime"],
+    "ignoreDeprecations": "6.0"
+  },
+  "include": ["src/**/*"]
+}
